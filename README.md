@@ -12,7 +12,7 @@ I did not implement this from scratch; I merely adapted existing code for my own
 	fmt.Printf("%#x\n", hl2.Sum64()) // prints 0xe44bd6e48deb0e18
 ```
 
-# Applications
+# Compatibility
 
 This function is compatible with the hashes used by older (pre-v246, ~2020) versions of `systemd` journal files.  More details can be found in their [journal file format document](https://github.com/systemd/systemd/blob/main/docs/JOURNAL_FILE_FORMAT.md?plain=1#L71-L73).
 
