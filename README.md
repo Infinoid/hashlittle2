@@ -1,5 +1,8 @@
 # Hashlittle2
 
+![Build](https://github.com/Infinoid/hashlittle2/actions/workflows/go.yaml/badge.svg)
+<a href="https://pkg.go.dev/github.com/infinoid/hashlittle2"><img src="https://pkg.go.dev/badge/github.com/infinoid/hashlittle2.svg" alt="Docs"></a>
+
 This is a pure Go implementation of the `hashlittle2` hash function, from the `lookup3` family of hash functions by Bob Jenkins.  It is a non-cryptographic, 64 bit hash function.
 
 I did not implement this from scratch; I merely adapted existing code for my own purposes.  See Credits, below.
